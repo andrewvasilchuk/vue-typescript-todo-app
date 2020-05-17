@@ -1,0 +1,18 @@
+{
+  "name": "local-vetur-attributes",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local vertur attributes",
+  "keywords": [
+    "vetur",
+    "attributes",
+    "intelli-sense"
+  ],
+  "license": "UNLICENSE",
+  "author": "Andrew Vasilchuk <andrew.d.vasilchuk@gmail.com>",
+  "main": "index.js",
+  "vetur": {
+    "tags": "vetur-tags.json",
+    "attributes": "vetur-attributes.json"
+  }
+}

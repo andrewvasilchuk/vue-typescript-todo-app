@@ -1,0 +1,54 @@
+{
+  "base-container/tag": {
+    "description": "Define container tag",
+    "type": "string"
+  },
+  "base-button/tag": {
+    "description": "Define button tag",
+    "type": "string"
+  },
+  "base-button/theme": {
+    "description": "Define button theme",
+    "type": "string"
+  },
+  "base-button/plain": {
+    "description": "Define button plainity",
+    "type": "boolean"
+  },
+  "base-button/circle": {
+    "description": "Define button variant",
+    "type": "boolean"
+  },
+  "base-input/value": {
+    "description": "Define input value",
+    "type": "string"
+  },
+  "base-input/id": {
+    "description": "Define input id",
+    "type": "string"
+  },
+  "base-input/label": {
+    "description": "Define input lable",
+    "type": "string"
+  },
+  "base-alert/tag": {
+    "description": "Define alert tag",
+    "type": "string"
+  },
+  "base-card/tag": {
+    "description": "Define card tag",
+    "type": "string"
+  },
+  "base-checkbox/value": {
+    "description": "Define checkbox state",
+    "type": "boolean"
+  },
+  "svg-icon/name": {
+    "description": "Define icon name",
+    "type": "string"
+  },
+  "svg-icon/title": {
+    "description": "Define icon title",
+    "type": "string"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "base-container": {
+    "description": "Default content container",
+    "attributes": ["tag"]
+  },
+  "base-button": {
+    "description": "Default button",
+    "attributes": ["tag", "theme", "plain", "circle"]
+  },
+  "base-input": {
+    "description": "Default button",
+    "attributes": ["value", "id", "label"]
+  },
+  "base-alert": {
+    "description": "Default alert",
+    "attributes": ["tag"]
+  },
+  "base-card": {
+    "description": "Default card",
+    "attributes": ["tag"]
+  },
+  "base-checkbox": {
+    "description": "Default checkbox",
+    "attributes": ["value"]
+  },
+  "svg-icon": {
+    "description": "Default icon",
+    "attributes": ["name", "title"]
+  }
+}

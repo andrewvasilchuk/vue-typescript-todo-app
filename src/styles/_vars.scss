@@ -1,0 +1,19 @@
+$color-primary: #409eff;
+$color-success: #67c23a;
+$color-danger: #f56c6c;
+$color-dark: #333;
+$color-grey: #9e9e9e;
+$default-border-radius: 4px;
+$default-border-color: #eee;
+$default-spacing: 16px;
+$grid-breakpoints: (
+  xs: 0,
+  lg: 992px,
+  xl: 1200px,
+);
+$grid-gutter-width: $default-spacing * 2;
+$container-max-widths: (
+  lg: 960px,
+  xl: 1140px,
+);
+$base-font-family: 'Roboto', sans-serif;

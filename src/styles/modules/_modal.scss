@@ -1,0 +1,7 @@
+.v-modal {
+  &__content {
+    @include lg() {
+      width: 512px;
+    }
+  }
+}

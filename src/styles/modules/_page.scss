@@ -1,0 +1,22 @@
+.page {
+  &__content {
+    flex-grow: 1;
+  }
+
+  &__fab {
+    position: fixed;
+    right: $default-spacing;
+    bottom: $default-spacing;
+  }
+
+  &__title {
+    margin: {
+      top: 0;
+      bottom: 0;
+    }
+    font: {
+      size: 24px;
+      weight: 400;
+    }
+  }
+}

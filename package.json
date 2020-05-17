@@ -1,0 +1,60 @@
+{
+  "name": "todo-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Todo Application",
+  "keywords": [
+    "todo",
+    "task",
+    "todo-application",
+    "todo-app"
+  ],
+  "license": "UNLICENSE",
+  "author": "Andrew Vasilchuk <andrew.d.vasilchuk@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "build": "vue-cli-service build",
+    "postinstall": "patch-package",
+    "lint": "vue-cli-service lint",
+    "prettify": "prettier --write ./**/*.{js,ts,vue}",
+    "serve": "vue-cli-service serve"
+  },
+  "dependencies": {
+    "fast-json-patch": "^3.0.0-1",
+    "local-vetur-attributes": "file:vetur",
+    "lodash.clonedeep": "^4.5.0",
+    "normalize.css": "^8.0.1",
+    "uuid": "^8.0.0",
+    "vue": "^2.6.11",
+    "vue-functional-data-merge": "^3.1.0",
+    "vue-router": "^3.1.6",
+    "vuex": "^3.1.3"
+  },
+  "devDependencies": {
+    "@types/lodash.clonedeep": "^4.5.6",
+    "@types/uuid": "^7.0.3",
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "@typescript-eslint/parser": "^2.26.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-plugin-router": "~4.3.0",
+    "@vue/cli-plugin-typescript": "~4.3.0",
+    "@vue/cli-plugin-vuex": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.12.0",
+    "patch-package": "^6.2.2",
+    "prettier": "^1.19.1",
+    "sass-loader": "^8.0.2",
+    "style-resources-loader": "^1.3.2",
+    "svgo": "^1.1.0",
+    "svgo-loader": "^2.1.0",
+    "typescript": "~3.8.3",
+    "vue-cli-plugin-style-resources-loader": "^0.1.4",
+    "vue-cli-plugin-svg-sprite": "~1.0.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

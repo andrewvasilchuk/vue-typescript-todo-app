@@ -1,0 +1,50 @@
+@mixin lg() {
+  @media (min-width: map-get($map: $grid-breakpoints, $key: lg)) {
+    @content;
+  }
+}
+
+@mixin from-xs-to-lg() {
+  @media (min-width: map-get($map: $grid-breakpoints, $key: xs)) and (max-width: map-get($map: $grid-breakpoints, $key: lg) - 0.02px) {
+    @content;
+  }
+}
+
+@mixin box($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+@mixin reset-list() {
+  padding-left: 0;
+  margin: {
+    top: 0;
+    bottom: 0;
+  }
+  list-style: none;
+}
+
+@mixin reset-button() {
+  padding: 0;
+  background-color: transparent;
+  border-width: 0;
+}
+
+@mixin row() {
+  margin: {
+    right: -$grid-gutter-width / 2;
+    left: -$grid-gutter-width / 2;
+  }
+}
+
+@mixin col() {
+  padding: {
+    right: $grid-gutter-width / 2;
+    left: $grid-gutter-width / 2;
+  }
+}
+
+@mixin focus-shadow($color: $color-primary) {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba($color, 0.24);
+}
