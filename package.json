@@ -39,7 +39,7 @@
     "@vue/cli-plugin-router": "~4.3.0",
     "@vue/cli-plugin-typescript": "~4.3.0",
     "@vue/cli-plugin-vuex": "~4.3.0",
-    "@vue/cli-service": "~4.3.0",
+    "@vue/cli-service": "~5.0.8",
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/eslint-config-typescript": "^5.0.2",
     "eslint": "^6.7.2",
@@ -54,7 +54,7 @@
     "svgo-loader": "^2.1.0",
     "typescript": "~3.8.3",
     "vue-cli-plugin-style-resources-loader": "^0.1.4",
-    "vue-cli-plugin-svg-sprite": "~1.0.0",
+    "vue-cli-plugin-svg-sprite": "~1.1.0",
     "vue-template-compiler": "^2.6.11"
   }
 }
